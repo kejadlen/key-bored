@@ -1,4 +1,4 @@
-require "key-bored/version"
+require "key_bored/version"
 
 module KeyBored
   class Error < StandardError; end

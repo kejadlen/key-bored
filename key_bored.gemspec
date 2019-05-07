@@ -1,9 +1,9 @@
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "key-bored/version"
+require "key_bored/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "key-bored"
+  spec.name          = "key_bored"
   spec.version       = KeyBored::VERSION
   spec.authors       = ["Alpha Chen"]
   spec.email         = ["alpha@kejadlen.dev"]
